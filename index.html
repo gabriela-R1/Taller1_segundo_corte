@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>menu principal</title>
+</head>
+
+<body>
+    <script>
+        const titulositio = document.createElement("h1");
+        titulositio.textContent = "Bienvenido al Sitio de Deadpool";
+        document.body.appendChild(titulositio);
+
+        const parrafoe = document.createElement("p");
+        parrafoe.innerHTML = "Explora las siguientes páginas para conocer más sobre Deadpool y sus frases memorables.";
+        document.body.appendChild(parrafoe);
+
+        const titulomenu = document.createElement("h2");
+        titulomenu.textContent = "Menú de Navegación";
+        document.body.appendChild(titulomenu);
+
+        const linkpg1 = document.createElement("a")
+        linkpg1.href = "../ejercicio1.html"
+        linkpg1.textContent = "Personajes Principales"
+        document.body.appendChild(linkpg1)
+        
+        const linkpg2 = document.createElement("a")
+        linkpg2.href = "../ejercicio2.html"
+        linkpg2.textContent = "Frases Memorables de Deadpool"
+        document.body.appendChild(linkpg2)
+        
+    </script>
+</body>
+
+</html>

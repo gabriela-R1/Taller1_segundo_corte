@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frases memorables</title>
+</head>
+
+<body>
+    <script>
+        const titulofrases = document.createElement("h1");
+        titulofrases.textContent = "Frases memorables de DeadPool";
+        document.body.appendChild(titulofrases);
+
+        const titulocitas = document.createElement("h2");
+        titulocitas.textContent = "Citas famosas";
+        document.body.appendChild(titulocitas);
+
+        const listama = document.createElement("li");
+        listama.textContent = "'Maximum effort!'";
+        document.body.appendChild(listama);
+
+        const listaim = document.createElement("li");
+        listaim.textContent = "'I'm about to do to you what Limp Bizkit did to music in the late '90s.'";
+        document.body.appendChild(listaim);
+
+        const listayu = document.createElement("li");
+        listayu.textContent = "'You're probably thinking, 'This was a superhero movie but that guy in the suit just turned that other guy into a kebab!'";
+        document.body.appendChild(listayu);
+
+        const nota = document.createElement("p");
+        nota.innerHTML = "<strong>Nota:</strong> Cada una de estas frases captura perfectamente el espíritu sarcástico y subversivo de Deadpool.";
+        document.body.appendChild(nota);
+
+        const titulovid = document.createElement("h3");
+        titulovid.textContent = "Video de las Mejores Escenas";
+        document.body.appendChild(titulovid);
+        VideoPlayback = crearVideo("../videoplayback.mp4")
+    </script>
+</body>
+
+</html>
